@@ -1,0 +1,38 @@
+<div class="imgContainer">
+  <img src="welcome.jpeg"  style="max-height:100%; max-width:100%"/>
+</div>
+<div class="imgContainer">
+  <img src="signup.jpeg"  style="max-height:100%; max-width:100%"/>
+</div>
+<div class="imgContainer">
+  <img src="login.jpeg"  style="max-height:100%; max-width:100%"/>
+</div>
+<div class="imgContainer">
+  <img src="username.jpeg"  style="max-height:100%; max-width:100%"/>
+</div>
+</div>
+
+
+#container{
+   display: flex; /*specifies that the items in the container should abide by flex styling*/
+   flex-direction: row; /*aligns the items in the container in a row*/
+}
+
+.imgContainer{
+   text-align: center;  /*aligns the text in the center*/
+   padding: 2%; /*adds some extra white space around images*/
+}
+
+
+
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="navbar-header">
+    <a class="navbar-brand" href="#">HOME</a>
+    <a class="navbar-brand" href="#">APP</a>
+    <a class="navbar-brand" href="#">DOWNLOAD</a>
+    <a class="navbar-brand" href="#">REFER & EARN</a>
+    <a class="navbar-brand" href="#">ADVERTISE</a>
+    <a class="navbar-brand" href="#">ABOUT</a>
+    <a class="navbar-brand" href="#">BLOG</a>
+  </div>
+</nav>
